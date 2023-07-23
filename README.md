@@ -2,7 +2,7 @@
 
 This repo is to share some of my personal findings on Explainable AI, in particular, the interpretation of SHAP values and pitfalls when we deploy it in production.
 
-The code illustration is in `explaining-explainable-ai.ipynb / html`
+The code illustration is in `explaining-explainable-ai.ipynb` or download and view `explaining-explainable-ai.html` to view all the JavaScript graph display that are disabled by github.
 
 # Background
 
@@ -51,4 +51,4 @@ Notice I put a quote on "some average observations". In practice, this is the pa
 
 I prompted ChatGPT to generate some simulated data with latitude and longitude of 161 cities. The goal is to predict whether a city is in Asia or not, however, the dataset was deliberately made to be imbalanced with too many European cities. This is to simulate the situation of using ML to solve business problems, such as fraud detection, which the dataset is usually imbalanced but we have a low risk tolerance for true negatives. 
 
-It is found that an imbalanced dataset would also impact the SHAP interpretation. The baseline values used in the SHAP computation would greatly affect the results. Some features would have their SHAP over or under-estimated. Hence, we should be careful in choosing a truly "meaningless" baseline. For more details please read `explaining-explainable-ai.ipynb`
+It is found that an imbalanced dataset would also impact the SHAP interpretation. The baseline values used in the SHAP computation would greatly affect the results. Some features would have their SHAP over or under-estimated. Hence, we should be careful in choosing a truly "meaningless" baseline. For more details please read `explaining-explainable-ai.ipynb` or download and view `explaining-explainable-ai.html` to view all the JavaScript graph display that are disabled by github.`
