@@ -1,54 +1,55 @@
 # explaining-explainable-ai
 
-This repo is to share some of my personal findings on Explainable AI, in particular, the interpretation of SHAP values and pitfalls when we deploy it in production.
+This repo is to share some of my personal findings on Explainable AI, in particular, the journey from interpretable models to using various methods to explain complex neural network models. 
 
-The code illustration is in `explaining-explainable-ai.ipynb` or download and view `explaining-explainable-ai.html` to view all the JavaScript graph display that are disabled by github.
+1. Linear Regression
+2. Decision Trees
+   2.1. Random Forests feature importances
+   2.2. Local Interpretable Model-agnostic Explanations (LIME)
+   2.3. Tree SHAP
+3. XAI for Computer Vision
+   3.1. Activation Maximization
+   3.2. SmoothGrad (SG)
+   3.3. GRAD-CAM
+   3.4. SHAP Gradient Explainer
+4. SHAP - a detailed explanation
 
-# Background
-
-Machine learning models are always seen as "black box" models. From my personal experience working in the data science field I found two major issues when we use ML:
-
-1. I deployed the model but I have no idea how the model produced the predictions
-2. My clients find it hard to understand and trust the model predictions
-
-Explainable AI (XAI) emerges in the research field to solve the above problems. It is a set of processes and methods which answer the questions "how" and "why" AI systems work. In the paper [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874), Lundberg and Lee proposed using SHAP (SHapley Additive exPlanations) as most consistent and reliable way to interpret a prediction model.
-
-This notebook aims to explain how SHAP works and explain the difficulties and pitfalls when using it on real-life. In particular, the reliablilty of SHAP values on an imbalanced dataset and the runtime if we need to deploy it in production.
 
 
-# What is SHAP?
+## Explainable AI - An Introduction
 
-SHAP is a mathematical method to explain the predictions of machine learning models. It is based on game theory, which assigns values to the features importance based on the marginal contribution of each feature.
+The use of AI in industry is gaining popularity, however, there are still some difficulties in trusting AI for decision making. It is crucial for business to understand how models make predictions. The lack of tranparency and accountability is unacceptable in a lot of domains, such as the medicial, compliance and legal field. Therefore, Explainable AI (XAI) methods are used to help us discover the AI decision process, and thus mitigate the risks with bias and fairness issues that might arise.
 
-We can use an example to illustrate the concept of SHAP. Imagine we have a startup company with 3 employees. The company just made a new deal that worth $100. How should we distribute the compensation for the three employees, namely, A, B and C? In this case, we woud need to know how much each employee has contributed. Assuming A and B worked equally hard, and C had no contribution at all. Intuitively, we would give $50 to A and B each, and $0 to C. A mathematical and computational way to calculate this is to try all different combinations of the employees in this startup, and how much they could make. For example:
+## Prediction Accuracy and Model Interpretability Trade-off
 
-- Startup with A, B and C: $100
-- Startup with A and B only: $100
-- Startup with A and C only: $0
-- Startup with A only: $0
+Not all AI models are black boxes. Simpler models, such as linear regressions, are known for its high interpretability. We can easily observe the weights and features, and this helps us to understand why and how a model predicts. However, it comes with a trade-off with the prediction accuracy. Since the model is too simple, it may fail to predict accurately on complex and large data.
 
-Then, we can find the weighted sum of marginal contributions for A is
+The figure below shows the interpretability versus performance trade-off given common ML algorithms:
 
-$$
-0.3333\times0 + 0.1667\times0 + 0.1667\times100 + 0.3333\times100 = 50
-$$
+![Diagram showing Interpretability versus performance trade-off given common ML algorithms](https://docs.aws.amazon.com/images/whitepapers/latest/model-explainability-aws-ai-ml/images/interpretability-vs-performance-trade-off.png)
 
-Similarly, B would also get $50 and C would get $0.
+Source: https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html
 
-SHAP does a similar analysis. It has a property which feature contributions must add up to the difference between the prediction of $x$ and the average of the preciction of "an average observation"
+Fortunately, there are methods to explain high performance complex models. In the subsequent chapters, we will look at the different model explanation methods and their Python implementation.
 
-$$
-\sum_{j=1}^{p} \phi_j = \hat{f}(x) - E_X(\hat{f}(X))
-$$
+## Explainability vs Interpretability
 
-where $\phi_j$ is the SHAP value of feature $j \in \{1, 2, 3, ... p \}$. It means that the sum of all the feature SHAP values equals the model prediction minus the average of the model predictions on "some average observations".
+We often use the terms "explainability" and "interpretability" interchangeabily, however, there are some subtle differences. Explaining a model means making its predictions understandable for human and plain to see. Interpretation would require a higher level of understanding of the meaning of the model . It is beyond making an observation clear, and we could interpret the actions we can take from the model outcomes.
 
-If we apply SHAP values on the above example, we would assume $E_X(\hat{f}(X)) = 0$ as the company would make a zero revenue if we pick any employee to work on the project alone. $\hat{f}(x) = 100$ and $\phi_A = \phi_B = 50$ while $\phi_C = 0$.
+## Types of Interpretability in Machine Learning
 
-Notice I put a quote on "some average observations". In practice, this is the part that makes interpreting SHAP difficult in real-life data.
+There are different ways to achieve interpretability in machine learning:
 
-# Experiment
+1. Use models that are inherently interpretable
 
-I prompted ChatGPT to generate some simulated data with latitude and longitude of 161 cities. The goal is to predict whether a city is in Asia or not, however, the dataset was deliberately made to be imbalanced with too many European cities. This is to simulate the situation of using ML to solve business problems, such as fraud detection, which the dataset is usually imbalanced but we have a low risk tolerance for true negatives. 
+Models such as linear models are inherently interpretable, however, these models often trade off with predictability.
 
-It is found that an imbalanced dataset would also impact the SHAP interpretation. The baseline values used in the SHAP computation would greatly affect the results. Some features would have their SHAP over or under-estimated. Hence, we should be careful in choosing a truly "meaningless" baseline. For more details please read `explaining-explainable-ai.ipynb` or download and view `explaining-explainable-ai.html` to view all the JavaScript graph display that are disabled by github.`
+2. Design complex models that are able to generate predictions and explanations
+
+Training these models is very challenging, and this approach is inflexible as it applies to the very specific model.
+
+3. Building explanation methods on top of existing models
+
+This method can explain models without sacrificing model performances, and without the need for retaining the model.
+
+This repo would focus on introducing the third type of model explanation methods, and provide the Python implementation with code examples.
