@@ -2,17 +2,15 @@
 
 This repo is to share some of my personal findings on Explainable AI, in particular, the journey from interpretable models to using various methods to explain complex neural network models. 
 
-1. Linear Regression
-2. Decision Trees
+1. [Linear Regression](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Linear%20Regression.ipynb)
+2. [Decision Trees](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Decision%20Trees.ipynb)
      * 2.1. Random Forests feature importances
      * 2.2. Local Interpretable Model-agnostic Explanations (LIME)
      * 2.3. Tree SHAP
 3. XAI for Computer Vision
-     * 3.1. Activation Maximization
-     * 3.2. SmoothGrad (SG)
-     * 3.3. GRAD-CAM
-     * 3.4. SHAP Gradient Explainer
-4. SHAP - a detailed explanation
+     * 3.1. [Activation Maximization](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Activation%20Maximization.ipynb)
+     * 3.2. [Saliency methods (SmoothGrad, GRAD-CAM, SHAP Gradient Explainer)](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Saliency%20Methods.ipynb)
+4. [SHAP - a detailed explanation](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/explaining-explainable-ai.ipynb)
 
 
 
