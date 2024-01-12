@@ -10,7 +10,7 @@ This repo is to share some of my personal findings on Explainable AI, in particu
 3. XAI for Computer Vision
      * 3.1. [Activation Maximization](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Activation%20Maximization.ipynb)
      * 3.2. [Saliency methods (SmoothGrad, GRAD-CAM, SHAP Gradient Explainer)](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/Saliency%20Methods.ipynb)
-4. [SHAP - a detailed explanation](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/explaining-explainable-ai.ipynb)
+4. [SHAP - a detailed explanation](https://github.com/wingyiuc/explaining-explainable-ai/blob/main/SHAP-explaining-explainable-ai.ipynb)
 
 
 
