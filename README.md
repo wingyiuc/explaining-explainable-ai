@@ -4,14 +4,14 @@ This repo is to share some of my personal findings on Explainable AI, in particu
 
 1. Linear Regression
 2. Decision Trees
-   2.1. Random Forests feature importances
-   2.2. Local Interpretable Model-agnostic Explanations (LIME)
-   2.3. Tree SHAP
+    2.1. Random Forests feature importances
+    2.2. Local Interpretable Model-agnostic Explanations (LIME)
+    2.3. Tree SHAP
 3. XAI for Computer Vision
-   3.1. Activation Maximization
-   3.2. SmoothGrad (SG)
-   3.3. GRAD-CAM
-   3.4. SHAP Gradient Explainer
+    3.1. Activation Maximization
+    3.2. SmoothGrad (SG)
+    3.3. GRAD-CAM
+    3.4. SHAP Gradient Explainer
 4. SHAP - a detailed explanation
 
 
