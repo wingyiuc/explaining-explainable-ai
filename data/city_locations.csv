@@ -104,7 +104,7 @@
 47.3686,8.5392,Zurich,Europe
 36.7388,137.9162,Kanazawa,Asia
 43.0481,76.1474,Almaty,Asia
-72,102,Siberia,Asia
+72,102,Siberia,Europe
 40.4637,-3.7492,Spain,Europe
 59.9112,10.7522,Oslo,Europe
 50.0755,14.4378,Prague,Europe
@@ -160,3 +160,363 @@
 42.4304,19.2594,Podgorica,Europe
 50.8798,4.7005,Leuven,Europe
 45.2671,19.8335,Novi Sad,Europe
+-15.778875,128.740937,Kimberley,Australia
+-16.891665,145.773338,Cairns,Australia
+-12.46344,130.845642,Darwin,Australia
+-14.267251,135.014002,Kakadu National Park,Australia
+-34.922086,138.604886,Adelaide,Australia
+-18.287107,147.699234,Townsville,Australia
+-25.288391,152.822378,Fraser Island,Australia
+-19.257622,146.817878,Magnetic Island,Australia
+-31.958339,115.869766,Perth,Australia
+-37.812428,144.962945,Melbourne,Australia
+-33.859972,151.211111,Sydney,Australia
+-35.281971,149.130245,Canberra,Australia
+-31.952426,115.860457,Swan Valley,Australia
+-27.527853,152.992057,Brisbane,Australia
+-28.016667,153.4,Gold Coast,Australia
+-37.813628,144.963058,Yarra River,Australia
+-31.963445,115.870678,Cottesloe Beach,Australia
+-33.86882,151.209296,Opera House,Australia
+-33.804166,151.287781,Bondi Beach,Australia
+-33.856785,151.215296,Harbour Bridge,Australia
+-33.865143,151.2099,Darling Harbour,Australia
+-35.280937,149.129822,Australian War Memorial,Australia
+-29.463,147.972,Outback,Australia
+-38.581572,143.682809,Great Ocean Road,Australia
+-36.809284,144.291111,Bendigo,Australia
+-37.920285,145.00425,Mornington Peninsula,Australia
+-33.865143,151.2099,Darling Harbour,Australia
+-37.007561,144.211634,Discover Ballarat,Australia
+-33.86882,151.209296,Opera House,Australia
+-37.814908,144.965572,St. Kilda Beach,Australia
+-38.25,141.266667,Great Otway National Park,Australia
+-41.291478,173.247988,Marlborough Sounds,Australia
+-42.879579,147.329513,Hobart,Australia
+-45.868486,170.503608,Dunedin,Australia
+-37.805981,144.971847,MCG (Melbourne Cricket Ground),Australia
+-33.873651,151.20689,The Rocks,Australia
+-42.882509,147.328123,Mount Wellington,Australia
+-34.409305,150.878809,Wollongong,Australia
+-31.950526,115.860457,Penguin Island,Australia
+-36.778261,144.317238,Maldon,Australia
+-35.2,138.6,Fleurieu Peninsula,Australia
+-31.87388,116.008307,Swan Valley,Australia
+-23.698042,133.880747,Alice Springs,Australia
+-37.817018,144.967974,Royal Botanic Gardens,Australia
+-31.955858,115.858838,Crown Perth,Australia
+-31.949725,115.816334,Kings Park and Botanic Garden,Australia
+-33.874644,151.222058,Taronga Zoo,Australia
+-34.928726,138.599945,Adelaide Zoo,Australia
+-33.956806,151.065208,Bondi to Coogee Beach Walk,Australia
+-37.653588,144.780574,Ballarat,Australia
+-11.703665,20.784308,Luanda,Africa
+-4.043477,39.668206,Mombasa,Africa
+-8.825026,13.231152,Libreville,Africa
+-4.321705,15.318074,Brazzaville,Africa
+-1.285329,36.822984,Nairobi,Africa
+-33.924868,18.424055,Cape Town,Africa
+-25.746111,28.188056,Pretoria,Africa
+-6.792354,39.208328,Dar es Salaam,Africa
+-29.315081,27.48658,Bloemfontein,Africa
+-20.165419,57.479511,Port Louis,Africa
+15.369445,44.191006,Sanaa,Africa
+-29.85868,31.02184,Durban,Africa
+-23.55052,-46.633308,Johannesburg,Africa
+-8.038884,34.86233,Maputo,Africa
+-12.046373,-77.042754,Addis Ababa,Africa
+-1.969196,30.104372,Kigali,Africa
+-18.87919,47.507905,Antananarivo,Africa
+-4.441931,15.266293,Kinshasa,Africa
+-26.204103,28.047305,Gaborone,Africa
+10.315699,123.885437,Cairo,Africa
+9.05785,7.49508,Abuja,Africa
+15.552726,32.533557,Khartoum,Africa
+0.313611,32.581111,Kampala,Africa
+-25.746111,28.188056,Bloemfontein,Africa
+-17.825165,31.03351,Harare,Africa
+-29.85868,31.02184,Durban,Africa
+-3.465306,29.918885,Bujumbura,Africa
+-18.87919,47.507905,Antananarivo,Africa
+-8.783195,34.508522,Maputo,Africa
+-4.321705,15.318074,Brazzaville,Africa
+-26.204103,28.047305,Gaborone,Africa
+0.313611,32.581111,Kampala,Africa
+-12.046373,-77.042754,Addis Ababa,Africa
+-4.043477,39.668206,Mombasa,Africa
+-16.920334,145.77086,Port Moresby,Africa
+-10.82302,13.23602,Libreville,Africa
+10.315699,123.885437,Cairo,Africa
+-1.285329,36.822984,Nairobi,Africa
+23.634501,-102.552784,Lagos,Africa
+-25.746111,28.188056,Pretoria,Africa
+-22.328474,24.684866,Gaborone,Africa
+-23.55052,-46.633308,Johannesburg,Africa
+-17.783189,31.049999,Harare,Africa
+-0.228021,15.827659,Brazzaville,Africa
+-11.665179,27.479069,Lusaka,Africa
+-4.441931,15.266293,Kinshasa,Africa
+-3.465306,29.918885,Bujumbura,Africa
+-12.046373,-77.042754,Addis Ababa,Africa
+-4.043477,39.668206,Mombasa,Africa
+-20.165419,57.479511,Port Louis,Africa
+-10.82302,13.23602,Libreville,Africa
+15.369445,44.191006,Sanaa,Africa
+23.634501,-102.552784,Lagos,Africa
+-8.825026,13.231152,Libreville,Africa
+34.0479,100.6197,Qinghai,Asia
+36.8944,104.1661,Ningxia,Asia
+37.809,101.0583,Gansu,Asia
+32.0853,118.9166,Jiangsu,Asia
+31.9686,99.9018,Sichuan,Asia
+31.7917,106.3705,Chongqing,Asia
+26.0997,119.2965,Fujian,Asia
+30.0444,118.4833,Anhui,Asia
+25.2048,110.488,Guangxi,Asia
+28.7041,77.1025,Delhi,Asia
+23.6848,90.3563,Dhaka,Asia
+34.0522,118.2437,Los Angeles,Asia
+31.1467,120.6122,Jiangxi,Asia
+29.4316,106.9123,Shapingba,Asia
+27.0873,114.9984,Jiangxi,Asia
+23.8413,120.9734,Taiwan,Asia
+23.1291,113.2644,Guangzhou,Asia
+33.74,73.0397,Islamabad,Asia
+13.7563,100.5018,Bangkok,Asia
+25.2048,55.2708,Dubai,Asia
+23.5505,87.2792,West Bengal,Asia
+22.3964,114.1095,Hong Kong,Asia
+21.9162,95.956,Myanmar,Asia
+20.5937,78.9629,India,Asia
+18.7394,95.7083,Myanmar,Asia
+22.3193,114.1694,Tung Chung,Asia
+18.1096,77.2975,India,Asia
+13.4125,103.866,Siem Reap,Asia
+19.9975,73.7898,Mumbai,Asia
+13.7563,100.5018,Bangkok,Asia
+19.8208,72.9367,Mumbai,Asia
+23.8103,90.4125,Dhaka,Asia
+18.1096,77.2975,Telangana,Asia
+17.385,78.4867,Hyderabad,Asia
+26.9124,75.7873,Rajasthan,Asia
+22.5726,88.3639,Kolkata,Asia
+16.8302,96.1894,Yangon,Asia
+14.6937,121.0463,Manila,Asia
+16.0544,120.3425,Bengaluru,Asia
+11.5564,104.9282,Phnom Penh,Asia
+26.9124,75.7873,Jaipur,Asia
+14.0583,108.2772,Nha Trang,Asia
+23.8103,90.4125,Bangladesh,Asia
+10.7626,106.6602,Ho Chi Minh City,Asia
+16.4023,120.596,Baguio,Asia
+15.87,100.9925,Nakhon Ratchasima,Asia
+25.072,121.5272,Taipei,Asia
+22.507,88.3394,Kolkata,Asia
+27.7172,85.324,Kathmandu,Asia
+20.5937,78.9629,Delhi,Asia
+23.6848,90.3563,Bangladesh,Asia
+51.5074,-0.1278,London,Europe
+48.8566,2.3522,Paris,Europe
+41.9028,12.4964,Rome,Europe
+52.52,13.405,Berlin,Europe
+55.7558,37.6176,Moscow,Europe
+38.7223,9.1393,Lisbon,Europe
+53.3498,-6.2603,Dublin,Europe
+59.9139,10.7522,Oslo,Europe
+41.3851,2.1734,Barcelona,Europe
+45.4642,9.19,Milan,Europe
+41.0082,28.9784,Istanbul,Europe
+47.3769,8.5417,Zurich,Europe
+59.3293,18.0686,Stockholm,Europe
+47.4979,19.0402,Budapest,Europe
+60.1699,24.9384,Helsinki,Europe
+50.0755,14.4378,Prague,Europe
+53.5511,9.9937,Hamburg,Europe
+51.4545,-0.9731,Oxford,Europe
+50.088,14.4208,Brno,Europe
+54.6872,25.2797,Vilnius,Europe
+45.815,15.9819,Zagreb,Europe
+46.0569,14.5058,Ljubljana,Europe
+48.2082,16.3738,Vienna,Europe
+53.4084,-2.9916,Liverpool,Europe
+55.6867,12.5704,Copenhagen,Europe
+43.7179,10.3966,Pisa,Europe
+37.9838,23.7275,Athens,Europe
+55.7517,37.6176,Saint Petersburg,Europe
+53.3498,-6.2603,Belfast,Europe
+45.4215,-75.6906,Ottawa,Europe
+39.9075,32.8564,Ankara,Europe
+43.8563,18.4131,Sarajevo,Europe
+39.74,-8.9286,Coimbra,Europe
+51.9194,19.1451,Lodz,Europe
+43.9159,17.6791,Mostar,Europe
+54.6896,25.2799,Kaunas,Europe
+60.1733,24.9414,Keuruu,Europe
+57.0488,9.9217,Aalborg,Europe
+51.2194,4.4025,Antwerp,Europe
+55.3781,-3.4359,Edinburgh,Europe
+36.6682,-4.4529,Malaga,Europe
+44.4279,26.1025,Bucharest,Europe
+52.3702,4.8952,Amsterdam,Europe
+42.6977,23.3219,Sofia,Europe
+51.1079,17.0385,Wroclaw,Europe
+45.075,7.685,Turin,Europe
+50.0755,14.4378,Bratislava,Europe
+44.8048,20.4781,Belgrade,Europe
+35.6895,139.6917,Tokyo,Europe
+43.2622,-2.935,Bilbao,Europe
+41.9965,21.4314,Skopje,Europe
+41.3948,2.0787,Tarragona,Europe
+-32.9283,151.7817, Newcastle, Australia
+-33.8679,151.2073, Sydney, Australia
+-37.8136,144.9631, Melbourne, Australia
+-27.4698,153.0251, Brisbane, Australia
+-35.2809,149.13, Canberra, Australia
+-35.3191,149.1034, Australian National University, Australia
+-42.8821,147.3272, Hobart, Australia
+-42.8821,147.3272, University of Tasmania, Australia
+-31.9496,115.8605, Perth, Australia
+-33.8548,151.2165, University of New South Wales, Australia
+-35.282,149.0836, Australian War Memorial, Australia
+-35.3047,149.124, Questacon, Australia
+-35.3091,149.1246, National Portrait Gallery, Australia
+-33.8679,151.2073, Sydney Opera House, Australia
+-33.8688,151.2094, Royal Botanic Garden, Australia
+-27.4773,153.0295, South Bank Parklands, Australia
+-35.282,149.1019, Lake Burley Griffin, Australia
+-37.8144,144.9735, Federation Square, Australia
+-37.8036,144.9719, State Library Victoria, Australia
+-40.8226,145.0359, Cradle Mountain-Lake St Clair National Park, Australia
+-25.3445,131.0369, Ayers Rock, Australia
+-16.9294,145.7781, Great Barrier Reef, Australia
+-35.1187,147.3611, Lake Hume, Australia
+-35.04,138.6881, Hahndorf, Australia
+-37.9135,144.8422, St Kilda Beach, Australia
+-31.9255,115.8572, Kings Park, Australia
+-16.9186,145.7773, Cairns, Australia
+-33.8688,151.2092, Art Gallery of New South Wales, Australia
+-33.8671,151.2071, The Rocks, Australia
+-35.2819,149.1306, Parliament House, Australia
+-27.4689,153.0251, Queensland Gallery of Modern Art, Australia
+-33.8688,151.2093, The Royal Botanic Garden, Australia
+-37.8208,144.9677, Eureka Tower, Australia
+-33.8717,151.207, Taronga Zoo, Australia
+-35.2826,149.12, National Library of Australia, Australia
+-16.8956,145.7316, Kuranda Scenic Railway, Australia
+-35.3003,149.1208, Old Parliament House, Australia
+-37.8295,145.0144, Chadstone Shopping Centre, Australia
+-37.814,144.9638, Block Arcade, Australia
+-33.917,151.2313, Bondi Beach, Australia
+-35.2822,149.1314, National Gallery of Australia, Australia
+-32.06,115.7409, Fremantle Prison, Australia
+-16.5004,145.4588, Fitzroy Island, Australia
+-33.8868,151.1212, Manly Beach, Australia
+-35.3043,149.1291, Australian Parliament House, Australia
+-31.9512,115.8605, Elizabeth Quay, Australia
+-37.8136,144.9631, Royal Exhibition Building, Australia
+-37.8106,144.9716, Yarra River, Australia
+-31.969,115.8161, Cottesloe Beach, Australia
+-34.374,150.8964, Kiama Blowhole, Australia
+-34.2421,150.8943, Jervis Bay, Australia
+-33.4197,151.3435, Terrigal Beach, Australia
+-35.335,149.0832, Telstra Tower, Australia
+-33.8688,151.2094, Mrs Macquarie's Chair, Australia
+52.52,13.405,Berlin,Europe
+48.8566,2.3522,Paris,Europe
+41.9028,12.4964,Rome,Europe
+51.5074,-0.1278,London,Europe
+55.7558,37.6176,Moscow,Europe
+53.3498,-6.2603,Dublin,Europe
+60.1699,24.9384,Helsinki,Europe
+59.9139,10.7522,Oslo,Europe
+48.2082,16.3738,Vienna,Europe
+50.8503,4.3517,Brussels,Europe
+38.7223,9.1393,Lisbon,Europe
+52.2297,21.0122,Warsaw,Europe
+55.6761,12.5683,Copenhagen,Europe
+40.4168,-3.7038,Madrid,Europe
+45.4642,9.19,Milan,Europe
+59.3293,18.0686,Stockholm,Europe
+59.4369,24.7536,Tallinn,Europe
+47.4979,19.0402,Budapest,Europe
+53.5511,9.9937,Hamburg,Europe
+48.8566,2.3522,Lyon,Europe
+65.0121,25.4713,Rovaniemi,Europe
+52.3702,4.8952,Amsterdam,Europe
+37.9838,23.7275,Athens,Europe
+45.815,15.9819,Zagreb,Europe
+53.3498,-6.2603,Galway,Europe
+44.4268,26.1025,Bucharest,Europe
+43.8563,18.4131,Sarajevo,Europe
+52.2324,21.0085,Lublin,Europe
+48.3794,31.1656,Kyiv,Europe
+50.0755,14.4378,Prague,Europe
+55.7558,37.6176,Saint Petersburg,Europe
+41.9028,12.4964,Vatican City,Europe
+43.6532,-79.3832,Moscow,Europe
+44.7866,20.4489,Belgrade,Europe
+41.9028,12.4964,Milan,Europe
+59.9139,10.7522,Oslo,Europe
+52.2297,21.0122,Berlin,Europe
+45.4642,9.19,Rome,Europe
+48.8566,2.3522,London,Europe
+52.52,13.405,Paris,Europe
+41.9028,12.4964,Athens,Europe
+55.6761,12.5683,Stockholm,Europe
+52.3702,4.8952,Amsterdam,Europe
+59.3293,18.0686,Helsinki,Europe
+38.7223,9.1393,Lisbon,Europe
+48.2082,16.3738,Vienna,Europe
+37.9838,23.7275,Sofia,Europe
+48.8566,2.3522,Prague,Europe
+53.5511,9.9937,Hamburg,Europe
+51.5074,-0.1278,Belfast,Europe
+39.9042,116.4074,Beijing,Asia
+35.6895,139.6917,Tokyo,Asia
+31.2244,121.4758,Shanghai,Asia
+37.5665,126.978,Seoul,Asia
+25.033,121.5654,Taipei,Asia
+22.2795,114.1694,Hong Kong,Asia
+1.3521,103.8198,Singapore,Asia
+13.7563,100.5018,Bangkok,Asia
+10.7626,106.6602,Ho Chi Minh City,Asia
+35.6762,139.6503,Yokohama,Asia
+34.6937,135.5023,Osaka,Asia
+24.8607,67.0011,Karachi,Asia
+6.9271,79.8612,Colombo,Asia
+13.7563,100.5018,Bangkok,Asia
+55.7558,37.6176,Moscow,Asia
+31.9686,99.9018,Chengdu,Asia
+39.1653,117.2827,Tianjin,Asia
+22.3964,114.1095,Kowloon,Asia
+40.7128,74.006,New York City,North America
+23.6978,120.9605,Tainan,Asia
+35.6895,139.6917,Tokyo,Asia
+51.5074,-0.1278,London,Europe
+41.0082,28.9784,Istanbul,Asia
+23.1291,113.2644,Guangzhou,Asia
+37.5665,126.978,Seoul,Asia
+1.3521,103.8198,Singapore,Asia
+35.6762,139.6503,Yokohama,Asia
+34.6937,135.5023,Osaka,Asia
+39.9042,116.4074,Beijing,Asia
+31.2244,121.4758,Shanghai,Asia
+20.5937,78.9629,India,Asia
+24.8607,67.0011,Karachi,Asia
+61.524,105.3188,Krasnoyarsk,Asia
+22.3964,114.1095,Kowloon,Asia
+55.7558,37.6176,Moscow,Asia
+37.7749,-122.4194,San Francisco,North America
+40.7128,74.006,New York City,North America
+31.9686,99.9018,Chengdu,Asia
+6.9271,79.8612,Colombo,Asia
+23.1291,113.2644,Guangzhou,Asia
+25.033,121.5654,Taipei,Asia
+35.6895,139.6917,Tokyo,Asia
+51.5074,-0.1278,London,Europe
+41.0082,28.9784,Istanbul,Asia
+37.5665,126.978,Seoul,Asia
+34.6937,135.5023,Osaka,Asia
+39.9042,116.4074,Beijing,Asia
+31.2244,121.4758,Shanghai,Asia
+20.5937,78.9629,India,Asia
